@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book-table</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"href="style.css">
+    <style type="text/css">
+  	    	.box{
+        width: 100%;
+        background-color: tomato;
+  		float: right;
+  		margin-top: 0px;
+  		opacity: 0.96;
+  	}
+  	.box ul li{
+
+  		width: 100px;
+  		height: 30px;
+  		float:left;
+  		margin: 25px auto ;
+  		margin-top: 5px;
+  		text-align: center;
+  		font-weight: 300px;
+  		font-size: 20px;
+  		border-radius: 6px;
+        
+  		}
+  		.box ul li a{
+  			text-decoration: none;
+  			color:black;
+  		}
+  		.box ul li:hover{
+  			background-color: tomato;
+
+
+  		}
+  		.box ul li a:hover{
+  			color: white;}
+  			h1{
+  				position:relative;
+  				font-weight: 200px;
+  				font-size: 35px;
+  				color: red;
+  				margin-left: 600px;
+  				margin-top: 0px;
+  				top: 20px;
+
+  			}
+  			h2{
+  				position:relative;
+  				font-weight: 400px;
+  				font-size: 55px;
+  				color: black;
+  				margin-left: 400px;
+  				top: 10px;
+  			}
+.box ul li img{
+            position: relative;
+            left: 700px;
+            top: -17px;
+            height: 70px;
+  		}
+  		 .table {
+     	width: 100%;
+     	height: 800px;
+     	overflow: hidden;
+     	background: white;
+     	border-radius: 16px;
+     	margin:20px  auto; 
+     	border: 1.2px solid mistyrose;
+     }
+     .table ul{
+     	
+     }
+     .table ul li{
+     	list-style: none;
+     	float: left;
+     	width: 48%;
+     	height: 720px;
+
+     }
+     .table ul li img{
+     	width: 100%;
+     	height : 700px;
+     	margin-left: 1px;
+     	border-radius: 6px;
+     	margin-top: 20px;
+     	
+     }
+     input[type= text] , select{
+     	width: 30%;
+     	height: 50px;
+     	border-radius: 6px;
+     	padding-left: 65px;
+     	margin-left: 120px;
+     	margin-top: 40px; 
+     	border-color: solid black;
+     	border-width: 1px;
+     }
+     input[type= date] , select{
+     	width: 30%;
+     	height: 50px;
+     	border-radius: 6px;
+     	padding-left: 45px;
+     	margin-left: 120px;
+     	margin-top: 40px; 
+     	border-color: solid black;
+     	border-width: 1px;
+     }
+     textarea{
+     	margin-left: 120px;
+     	margin-top: 50px;
+     	width: 77%;
+     	border-radius: 6px;
+     }
+     .form button{
+     	width: 40%;
+     	height: 50px;
+     	margin-top: 50px;
+     	margin-left: 250px;
+        background-color: grey;
+        color: white;
+     }
+      .form button:hover{
+     	width: 40%;
+     	height: 50px;
+     	margin-top: 50px;
+     	margin-left: 250px;
+        background-color: tomato;
+        color: white;
+     }
+     #refrences{
+   list-style: none;
+   display:flex;
+   justify-content:space-around;
+   width: 300px;
+   float: right;
+   margin: 10px;
+}
+#refrences ul li:hover{
+  text-decoration: none;
+  display:block;
+  background-color: yellow;
+}
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}.fa-instagram {
+  background: #125688;
+  color: white;
+}
+h4{
+	background-color: #A0522D;
+	border-radius: 50px;
+	color: white;
+	font-weight: 400px;
+	font-size: 50px;
+	padding-left: 630px;
+	margin-top: 150px;}
+ 
+  </style>
+</head>
+<body>
+	 <div class="box">
+           <ul type="none">
+               <li><a href="file:///C:/Users/LENOVO/Documents/project%20se/Restaurant%20Management%20CODE.html">Home</a></li>
+               <li><a href="file:///C:/Users/LENOVO/Documents/project%20se/restaurant%20management%20menu.html">Menu</a></li>
+               <li><a href="file:///C:/Users/LENOVO/Documents/project%20se/book-table.html">table</a></li>
+               <li><a href="file:///C:/Users/LENOVO/Documents/project%20se/rsm%20about.html">About</a></li>
+               <li ><img src="logo.png"></li>          
+          </ul>
+     </div> 
+       
+        <h1>Book A Online Table</h1>
+        <h2>Reservation Choose Your Table</h2>
+
+        <div class="table">
+        	<ul type="none">
+        		<li><img src="tables.jpg"></li>
+        		<li><div class="form" >
+        			<h3 style="margin-left: 250px;">Please fill this reguired info</h3>
+        			<form>
+        				<input type="text" placeholder="Full Name" name="name" required>
+        				<input type="text" placeholder="Your Email" name="Email"><br>
+        				<input type="text" placeholder="Phone no" name="Phone no" required>
+        				<select id="time">
+        					 <option value="enter time">enter time</option>
+                             <option value="10:00 AM">10:00 AM</option>
+                             <option value="11:00 AM">11:00 AM</option>
+                             <option value="12:00 PM">12:00 PM</option>
+                             <option value="1:00 PM">1:00 PM</option>
+                             <option value="2:00 AM">2:00 AM</option>
+                             <option value="3:00 AM">3:00 AM</option>
+                             <option value="4:00 PM">4:00 PM</option>
+                             <option value="5:00 PM">5:00 PM</option>
+                             <option value="6:00 AM">6:00 AM</option>
+                             <option value="7:00 AM">7:00 AM</option>
+                             <option value="8:00 PM">8:00 PM</option>
+                             <option value="9:00 PM">9:00 PM</option>
+                        </select><br>
+        				<select id="table size">
+        					 <option value="table size">table size</option>
+                             <option value="one">one</option>
+                             <option value="two">two</option>
+                             <option value="four">four</option>
+                             <option value="eight">eight</option>
+                        </select>
+        				<input type="date" placeholder="mm/dd/yy" name="date " required><br>
+        				<textarea rows="5" cols="50" name="Description " placeholder="Message" id="Description"></textarea><br>
+        				<button type="submit">Book A Table </button>
+
+        			</form>
+
+        		</div></li>
+        	</ul>
+        	
+        </div>
+        <h4>FOODCODE</h4>
+        <footer>
+       <div class="text-center" style="font-size: 10px; color: black; position:relative; bottom: -50px; text-align: center;
+       padding-bottom: 50px; " >&copy; All the copy right of this site is reserved by Veena yadav </div>
+  </footer>
+        <div style ="position:fixed; left:78%; top:90%;">
+    <ul id="refrences">
+       <li><a href="https://www.facebook.com/veenayadav13" class="fa fa-facebook"></a></li>
+       <li><a href="https://www.linkedin.com/in/veena-yadav-939034182/" class="fa fa-linkedin"></a></li>
+       <li><a href="https://www.instagram.com/veeniethegenie/?hl=en" class="fa fa-instagram"></a></li>
+       <li><a href="https://twitter.com/veenayadav_" class="fa fa-twitter"></a></li>
+   </ul>
+<div>
+       
+ <script>
+       window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("box");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+    
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" href="style.css">
+  <style type="text/css">
+
+  	.box{
+        width: 100%;
+        background-color: tomato;
+  		float: right;
+  		margin-top: 0px;
+  		opacity: 0.985;
+  	}
+  	.box ul{
+  		margin-top: 22px;
+  	}
+  	.box ul li{
+
+  		width: 100px;
+  		height: 35px;
+  		float:left;
+  		margin: 25px auto ;
+  		margin-top: 5px;
+  		text-align: center;
+  		font-weight: 300px;
+  		font-size: 20px;
+  		border-radius: 6px;
+        
+  		}
+  		.box ul li a{
+  			text-decoration: none;
+  			color:black;
+  		}
+  		.box ul li:hover{
+  			background-color: tomato;
+
+
+  		}
+  		.box ul li a:hover{
+  			color: white;
+     }
+      .hlo{
+      	width: 100%;
+      }
+     .hlo img{
+     	width: 100%;
+     	height: 550px;
+         
+        }
+     .hlo h1{
+          margin-top: -350px;
+          margin-left: 580px;
+          font-size: 40px;
+          color: white;
+
+     } 
+     .hlo h2{
+          margin-top: -10px;
+          margin-left: 620px;
+          font-size: 30px;
+          color: yellow;
+          
+
+     }
+     .breakfast img{
+     	width: 100%;
+     	height: 450px;
+     	margin-top: 270px;
+     	
+     	 }
+     	 .lunch img{
+     	width: 100%;
+     	height: 300px;
+     	margin-top: 1px;
+     	padding-left: 50px;
+     	padding-right: 50px;
+     	 }
+     	  .dinner img{
+     	width: 100%;
+     	height: 450px;
+     	margin-top: 1px;
+     	padding-left: 50px;
+     	padding-right: 50px;
+     	 }
+
+     .container {
+     	width: 80%;
+     	height: 1000px;
+     	overflow: hidden;
+     	background: cornsilk;
+     	border-radius: 16px;
+     	margin:20px  auto; 
+     	border: 1.2px solid mistyrose;
+     }
+     .container ul{
+     	padding: 10px;
+     	margin-left:38px;
+     	margin-bottom:40px;
+     }
+     .container ul li{
+     	list-style: none;
+     	float: left;
+     	width: 28%;
+     	height: 420px;
+     	background-color: moccasin;
+     	border-radius: 14px; 
+     	
+     	margin:   25px;
+     	box-sizing: border-box;
+     	border: 2px  solid 	brown;
+
+     }
+     .container ul li .title{
+     	width: 99.5%;
+     	height: 62px;
+     	border-radius: 11.5px 11.5px 0px 0px;
+     	line-height: 50px;
+     	color: black;
+     	border: 4px solid white;
+     	margin-top: 0px;
+     	margin-left: 1px;
+     	text-align: center;
+     }
+     .container ul li img{
+     	width: 99.6%;
+     	height : 285px;
+     	margin-left: 1px;
+     	border-radius: 6px;
+     	
+     }
+      .container ul li button{
+         width: 35%;
+         margin-left: 103px;
+         margin-top: 16px;
+         padding: 6px;
+         border-radius: 8px;
+
+     }
+     .container ul li button:hover{
+box-shadow: -1px 5px 9px #999;
+background-color: #f4511e;
+border: none;
+border-radius: 5px;
+color: white;
+font-size: 23px;
+
+}
+     /*.container img{
+     	width: 100%;
+     	height: 300px;
+
+     }*/
+     .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .hlo {
+  padding-top: 102px;
+}
+h3{
+	background-color: #A0522D;
+	border-radius: 50px;
+	color: white;
+	font-weight: 400px;
+	font-size: 50px;
+	padding-left: 630px;
+	margin-top: 150px;
+}
+#refrences{
+   list-style: none;
+   display:flex;
+   justify-content:space-around;
+   width: 300px;
+   float: right;
+   margin: 10px;
+}
+#refrences ul li:hover{
+  text-decoration: none;
+  display:block;
+  background-color: yellow;
+}
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.box ul li img{
+            position: relative;
+            left: 700px;
+            top: -17px;
+            height: 70px;
+  		}
+  	
+  </style>
+</head>
+<body>
+   
+       <div class="box">
+           <ul type="none">
+               <li><a href="file:///C:/Users/LENOVO/Documents/project%20se/Restaurant%20Management%20CODE.html">Home</a></li>
+               <li><a href="file:///C:/Users/LENOVO/Documents/project%20se/restaurant%20management%20menu.html">Menu</a></li>
+               <li><a href="file:///C:/Users/LENOVO/Documents/project%20se/book-table.html">table</a></li>
+               <li><a href="file:///C:/Users/LENOVO/Documents/project%20se/rsm%20about.html">About</a></li>
+               <li ><img src="logo.png"></li>
+          </ul>
+        </div> 
+	
+     <div class="hlo">
+        	<img src="page.jpg">
+        	<h1>Our Best Food Menu</h1>
+        	<h2>You are looking for !</h2>
+        </div> 
+        <span class="breakfast"><img src="breakfast.jpg">
+       </span>
+
+
+        <div class="container">
+        	<ul>
+        		<li><div class="title">fruity pancakes</div><img src="fruity-pancakes.jpg"><button type="submit" form="form1" value="Submit" onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 150 </button></li>
+        		<li><div class="title">sandwich</div><img src="sandwitch.jpg"><button type="submit" form="form1" value="Submit" onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 80 </button></li>
+        		<li><div class="title">partha</div><img src="parantha.jpg"><button type="submit" form="form1" value="Submit" onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')" > Rs 120 </button></li>
+        		<li><div class="title">dosa</div><img src="dosa.jpg"><button type="submit" form="form1" value="Submit" onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')" > Rs 250 </button></li>
+        		<li><div class="title">idli </div> <img src="idli.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')" > Rs 200 </button></li>
+        		<li><div class="title">french fries</div><img src="french_fries.jpg"><button type="submit" form="form1" value="Submit" onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')" > Rs 120 </button></li>
+        	</ul>
+        </div>
+
+          <span class="lunch"><img src="lunch.jpg">
+       </span>
+
+        <div class="container">
+        	<ul>
+        		<li><div class="title">chole bhatura</div><img src="chole bhatura.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 350 </button></li>
+        		<li><div class="title">veg thali</div><img src="veg thali.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 500 </button></li>
+        		<li><div class="title">Non-veg thali</div><img src="Non-veg thali.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 600 </button></li>
+        		<li><div class="title">Briyani</div><img src="Briyani.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 300 </button></li>
+        		<li><div class="title">Uttapam </div> <img src="Uttapam.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 310 </button></li>
+        		<li><div class="title">Manchurian</div><img src="Manchurian.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 280 </button></li>
+        	</ul>
+        </div>
+
+          <span class="dinner"><img src="dinner-time.png"></span>
+
+        <div class="container">
+        	<ul>
+        		<li><div class="title">chole kulche</div><img src="Chole kulche.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 300 </button></li>
+        		<li><div class="title">veg thali</div><img src="veg thali.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 500 </button></li>
+        		<li><div class="title">Non-veg thali</div><img src="Non-veg thali.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 600 </button></li>
+        		<li><div class="title">Daal Rice</div><img src="Daal Rice.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 370 </button></li>
+        		<li><div class="title">Chole puri </div> <img src="Chole puri.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 400 </button></li>
+        		<li><div class="title">Shahi Paneer </div><img src="Shahi Paneer.jpg"><button type="submit" form="form1" value="Submit"onclick="window.open('https://www.zomato.com/ncr/order?city_id=1')"> Rs 500 </button></li>
+        	</ul>
+        </div>
+        <h3>FOODCODE</h3>
+         <footer>
+       <div class="text-center" style="font-size: 10px; color: black; position:relative; bottom: -50px; text-align: center;
+       padding-bottom: 50px; " >&copy; All the copy right of this site is reserved by Veena yadav </div>
+  </footer>
+        <div style ="position:fixed; left:78%; top:90%;">
+    <ul id="refrences">
+       <li><a href="https://www.facebook.com/veenayadav13" class="fa fa-facebook"></a></li>
+       <li><a href="https://www.linkedin.com/in/veena-yadav-939034182/" class="fa fa-linkedin"></a></li>
+       <li><a href="https://www.instagram.com/veeniethegenie/?hl=en" class="fa fa-instagram"></a></li>
+       <li><a href="https://twitter.com/veenayadav_" class="fa fa-twitter"></a></li>
+   </ul>
+<div>
+      
+ <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("box");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

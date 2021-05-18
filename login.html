@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style type="text/css">
+
+		body{
+
+			background-image: url(logind.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+	
+		}
+		.Login-page{
+			width: 360px;
+			padding: 10% 0px 0px;
+			margin: auto;
+		}
+		.form{
+			position: relative;
+			z-index: 1;
+			background-color: brown;
+			max-width: 360px;
+			margin: 0px auto 100px;
+			padding: 45px 45px 35px 45px;
+			text-align: center;
+			height: auto;
+			border-radius: 8px;
+			opacity: 0.97;
+		}
+		.form input{
+			font-family: "Roboto","sana-serif";
+			outline: 1;
+			width: 100%;
+			margin: 0 0 15px;
+			padding: 15px;
+			box-sizing: border-box;
+			border-radius: 2px;
+			font-size: 14px;
+			border:0;
+		}
+		.form button{
+			text-transform: uppercase;
+			outline: 0;
+			background-color: #4CAF50;
+			width: 100%;padding: 15px;
+			color: #FFFFFF;
+			font-size: 14px;
+			cursor: pointer;
+			border:0;
+			border-radius: 2px;
+		}
+		.form button:hover,.form button:active{
+			background-color: tomato;
+
+		} 
+		.form .message{
+			margin: 19px 0 0;
+			color: white;
+			font-size: 13px;
+
+		}
+		.form .message a{
+			color: black;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		.form .message a:hover{
+			color: tomato;
+			font-size: 15px;
+		}
+		.form .register-form{
+			display: none;
+		}
+
+	</style>
+	 
+</head>
+<body>
+	<h1 style="font-size: 70px;text-align: center; margin-bottom: 0px ; font-family:serif;">FoodCode</h1>
+	<div class="Login-page" >
+		<div class="form" >
+			<form class="register-form"  >
+				<input type="text" name="user name" placeholder="user_name" >
+				<input type="text" name="email-id" placeholder="email-id" >
+				<input type="text" name="password" placeholder="password" >
+				<button>create</button>
+				<p class="message" >Already Registered ?<a href="#"> Login here</a></p>
+			</form>
+
+			<form class="login-form" >
+				<input type="text" name="user name"  placeholder="user name">
+				<input type="text" name="password"  placeholder="password">
+				<button type="submit" >Login</button>
+				<p class="message" >Not Registered ? <a href="#"> Register here</a></p>
+			</form>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	    <script>
+		$('.message a').click(function(){
+			$('form').animate({height:"toggle",opacity:"toggle"},"slow");
+		});
+
+	</script>
+		
+	</div>
+ 
+
+</body>
+</html>
